@@ -10,7 +10,7 @@ for (let i = 1; i < 50; i = i + 2) {
 }
 //EJERCICIO 2
 let numero = prompt("ingrese un numero: ");
-var pokemons = [
+const pokemons = [
   "bulbasaur",
   "ivysaur",
   "venusaur",
@@ -118,4 +118,12 @@ for (let index = 1; index <= numero; index++) {
   if (multiplof === 0) {
     console.log(pokemons[index]);
   }
+}
+//EJERCICIO 3
+
+const numeros=[4,"dos",8,"tres",5,9,1,"cero"];
+for (let index = 0; index < numeros.length; index++) {
+    if (typeof numeros[index]=="number") {
+        console.log(numeros[index]);
+    }
 }
